@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Calculadora</title>
+  <meta charset="utf-8">
+  <script type="text/javascript" src = "funciones.js"></script>
+  <center>
+</head>
+<FONT COLOR="black">
+<body background="fondo3.jpg" >
+  <h1>
+    Calculadora de Ana
+  </h1>
+  Número:
+  <input type="text" id="pantalla" onclick="vaciar" >
+  
+  <div>
+    <h2>
+      Resultado
+      <p id= "answer"></p>
+    </h2>
+  </div>
+  <div>
+    <h3> Operaciones unitarias </h3>
+    <button id="cuadrado" onclick="cuadrado()">x<sup>2</sup></button>
+    <button id="modulo" onclick="modulo()">Mod</button>
+    <button id="factorial" onclick="factorial()">n!</button>
+  </div>
+
+  <div>
+    <h3> Operaciones binarias </h3>
+    <button id="suma" onclick="suma()">+</button>
+    <button id="resta" onclick="resta()">-</button>
+    <button id="multiplicación" onclick="multiplicacion()">*</button>
+    <button id="igual" onclick="igual()">=</button>
+  </div>
+
+  <div>
+    <h3> Operaciones en formato CSV </h3>
+    <button id="sumatorio" onclick="sumatorio()">Σx</button>
+    <button id="ordenar" onclick="ordenar()">ordenar</button>
+    <button id="revertir" onclick="revertir()">revertir</button>
+    <button id="quitar" onclick="quitar()">quitar</button>
+  </div>
+</body>
+</center>
+</FONT>
+</html>
+
+
